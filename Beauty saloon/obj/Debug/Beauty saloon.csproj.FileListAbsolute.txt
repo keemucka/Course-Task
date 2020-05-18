@@ -1,0 +1,46 @@
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\bin\Debug\Beauty saloon.exe.config
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\bin\Debug\Beauty saloon.exe
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\bin\Debug\Beauty saloon.pdb
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\obj\Debug\Beauty saloon.csprojAssemblyReference.cache
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\obj\Debug\Beauty_saloon.Appointment_with_a_doctor.resources
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\obj\Debug\Beauty_saloon.Form1.resources
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\obj\Debug\Beauty_saloon.personal_account_of_Admin.resources
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\obj\Debug\Beauty_saloon.personal_account_of_Client.resources
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\obj\Debug\Beauty_saloon.personal_account_of_Doctor.resources
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\obj\Debug\Beauty_saloon.Properties.Resources.resources
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\obj\Debug\Beauty_saloon.Registration.resources
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\obj\Debug\Beauty saloon.csproj.GenerateResource.cache
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\obj\Debug\Beauty saloon.exe
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\obj\Debug\Beauty saloon.pdb
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\obj\Debug\Beauty_saloon.Add_new_user.resources
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\bin\Debug\EntityFramework.dll
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\bin\Debug\EntityFramework.SqlServer.dll
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\bin\Debug\EntityFramework6.Npgsql.dll
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\bin\Debug\Npgsql.dll
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\bin\Debug\System.Buffers.dll
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\bin\Debug\System.Memory.dll
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\bin\Debug\System.Numerics.Vectors.dll
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\bin\Debug\System.Text.Encodings.Web.dll
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\bin\Debug\System.Text.Json.dll
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\bin\Debug\System.ValueTuple.dll
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\bin\Debug\EntityFramework.xml
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\bin\Debug\EntityFramework.SqlServer.xml
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\bin\Debug\EntityFramework6.Npgsql.xml
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\bin\Debug\Npgsql.pdb
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\bin\Debug\Npgsql.xml
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\bin\Debug\System.Buffers.xml
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\bin\Debug\System.Memory.xml
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\bin\Debug\System.Numerics.Vectors.xml
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\bin\Debug\System.Text.Encodings.Web.xml
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\bin\Debug\System.Text.Json.xml
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\bin\Debug\System.ValueTuple.xml
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\obj\Debug\Beauty saloon.csproj.CopyComplete
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\obj\Debug\Beauty_saloon.EditService.resources
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\obj\Debug\Beauty_saloon.EditUser.resources
+C:\Азат\КНИТУ\Визуальное программирование\Курсовой проект\Beauty saloon\Beauty saloon\obj\Debug\Beauty_saloon.Procedure.resources
