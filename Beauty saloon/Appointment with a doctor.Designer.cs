@@ -194,6 +194,7 @@
             this.BackgroundImage = global::Beauty_saloon.Properties.Resources._57fbb7ebfd1817b342675a8ebc96cdd1;
             this.ClientSize = new System.Drawing.Size(452, 290);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "Appointment_with_a_doctor";
             this.Text = "Запись к врачу";
             this.groupBox1.ResumeLayout(false);

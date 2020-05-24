@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Data;
 using System.Windows.Forms;
 
+
 namespace Beauty_saloon
 {
     class DataView
@@ -13,6 +14,7 @@ namespace Beauty_saloon
         public client client;
         public employee employee;
         public Model1 db = new Model1();
+       
         public DataView(client client)
         {
             this.client = client;
@@ -28,9 +30,37 @@ namespace Beauty_saloon
             
         }
 
+
+        public bool CheckLoginPassword(string login,int password)
+        {
+            bool result = true;
+            List<employee> employees = (from employee in db.employee
+                                        select employee).ToList();
+            List<client> clients = (from client in db.client
+                                   select client).ToList();
+            foreach (employee emp in employees)
+                if ((emp.login == login) || (emp.password == password))
+                { result = false; break; }                
+            foreach (client clnt in clients)            
+                if ((clnt.login == login) || (clnt.password == password))
+                { result = false; break; }
+            return result;
+        }
+
+        public bool CheckServiceName(string svrName)
+        {
+            bool result = true;
+            List<service> services = (from service in db.service
+                                      select service).ToList();
+            foreach (service srv in services)
+                if (srv.name == svrName)
+                { result = false; break; }
+            return result;
+        }
+
         public void ShowInfoToClient(DataGridView dataGridView, ComboBox comboBox)
         {
-
+           
             List<employee> employees = (from employee in db.employee
                                         select employee).ToList();
             //Спико врачей-специалистов
@@ -370,7 +400,7 @@ namespace Beauty_saloon
                     }
                     break;
                 case 3:
-                    {
+                    {                        
                         string s = "";
                         var query = (from g in db.service
                                      join doctor in db.employee on g.id_employee equals doctor.id_employee
@@ -387,7 +417,7 @@ namespace Beauty_saloon
                         dataGridView.Columns[2].HeaderText = "Врач";
                     }
                     break;              
-            }
+            }           
         }
     }
 }

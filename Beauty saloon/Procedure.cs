@@ -42,13 +42,13 @@ namespace Beauty_saloon
         {
             if (button1.Text == "Изменить")
             {
-                EditInfo editInfo = new EditInfo(procedure_schedule);
+                EditInfo editInfo = new EditInfo(procedure_schedule, this);
                 editInfo.EditProcedure(comboBox1, comboBox2,
                 dateTimePicker1, comboBox3);
             }
             if (button1.Text == "Добавить")
             {               
-                AddNewUser addNewUser = new AddNewUser();
+                AddNewUser addNewUser = new AddNewUser(this);
                 addNewUser.AddNewSchedule(comboBox1, comboBox2,
                 dateTimePicker1, comboBox3);
             }

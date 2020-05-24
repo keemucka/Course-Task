@@ -17,19 +17,25 @@ namespace Beauty_saloon
         public service newservice;
         public procedure_schedule procedure_Schedule;
         public Model1 db = new Model1();
+        EditUser editUser;
+        EditService editService;
+        Procedure procedure;
 
-        public EditInfo(client newclient)
+        public EditInfo(client newclient, EditUser editUser)
         {
             this.newclient = newclient;
+            this.editUser = editUser;
         }
 
-        public EditInfo(employee newemployee)
+        public EditInfo(employee newemployee, EditUser editUser)
         {
             this.newemployee = newemployee;
+            this.editUser = editUser;
         }
 
-        public EditInfo(service newservice, string newemployee)
+        public EditInfo(service newservice, string newemployee, EditService editService)
         {
+            this.editService = editService;
             this.newservice = newservice;
             this.newemployee = db.employee.SingleOrDefault(w => (w.surname + " " + w.name + " " + w.lastlename)
             == newemployee);
@@ -38,6 +44,12 @@ namespace Beauty_saloon
         public EditInfo(procedure_schedule procedure_Schedule)
         {
             this.procedure_Schedule = procedure_Schedule;
+        }
+
+        public EditInfo(procedure_schedule procedure_Schedule, Procedure procedure)
+        {
+            this.procedure_Schedule = procedure_Schedule;
+            this.procedure = procedure;
         }
 
         public void EditClient(List<string> info)
@@ -54,6 +66,7 @@ namespace Beauty_saloon
                 result.login = info[6];
                 result.password = Convert.ToInt32(info[7]);
                 db.SaveChanges();
+                editUser.Close();
             }
             catch
             {
@@ -77,6 +90,7 @@ namespace Beauty_saloon
                 result.login = info[7];
                 result.password = Convert.ToInt32(info[8]);
                 db.SaveChanges();
+                editUser.Close();
             }
             catch
             {
@@ -93,6 +107,7 @@ namespace Beauty_saloon
                 result.cost = Convert.ToInt32(info[1]);
                 result.id_employee = newemployee.id_employee;
                 db.SaveChanges();
+                editService.Close();
             }
             catch
             {
@@ -118,6 +133,7 @@ namespace Beauty_saloon
                  == comboBox1.SelectedItem.ToString());
                 result.id_client = client.id_client;
                 result.id_service = service.id_service;
+                procedure.Close();
                 db.SaveChanges();
             }
             catch

@@ -114,7 +114,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Name = "EditService";
-            this.Text = "EditService";
+            this.Text = "Информация об услуге";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -111,13 +111,14 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(6, 263);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(45, 13);
+            this.label8.Size = new System.Drawing.Size(120, 26);
             this.label8.TabIndex = 36;
-            this.label8.Text = "Пароль";
+            this.label8.Text = "Пароль(только цифры\r\n до 6 символов)";
             // 
             // comboBox1
             // 
             this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.Enabled = false;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "Клиент",
@@ -180,9 +181,9 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(5, 155);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(93, 13);
+            this.label5.Size = new System.Drawing.Size(158, 13);
             this.label5.TabIndex = 25;
-            this.label5.Text = "Номер телефона";
+            this.label5.Text = "Номер телефона, начиная с 8";
             // 
             // textBox4
             // 
@@ -210,9 +211,9 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(6, 129);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(86, 13);
+            this.label4.Size = new System.Drawing.Size(149, 13);
             this.label4.TabIndex = 21;
-            this.label4.Text = "Дата рождения";
+            this.label4.Text = "Дата рождения (дд.мм.гггг)";
             // 
             // label3
             // 
@@ -266,6 +267,7 @@
             this.ClientSize = new System.Drawing.Size(468, 370);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "Add_new_user";
             this.Text = "Добавить пользователя";
             this.Load += new System.EventHandler(this.Add_new_user_Load);

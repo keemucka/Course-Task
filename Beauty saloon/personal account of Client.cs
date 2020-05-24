@@ -19,8 +19,12 @@ namespace Beauty_saloon
             this.form1 = form1;
             this.client = client;
             InitializeComponent();           
-        } 
-
+        }
+        public personal_account_of_Client(client client)
+        {           
+            this.client = client;
+            InitializeComponent();
+        }
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             DataView dw = new DataView(client);

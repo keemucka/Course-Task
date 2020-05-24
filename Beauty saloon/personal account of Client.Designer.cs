@@ -100,6 +100,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.dataGridView1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "personal_account_of_Client";
             this.Text = "Личный кабинет";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.personal_account_of_Client_FormClosing);

@@ -134,6 +134,7 @@
     <Compile Include="Logging in.Designer.cs">
       <DependentUpon>Logging in.cs</DependentUpon>
     </Compile>
+    <Compile Include="Loggining.cs" />
     <Compile Include="Model1.cs" />
     <Compile Include="personal account of Admin.cs">
       <SubType>Form</SubType>

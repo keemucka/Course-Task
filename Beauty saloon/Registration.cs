@@ -25,18 +25,11 @@ namespace Beauty_saloon
 
         private void button1_Click(object sender, EventArgs e)
         {
-           try
-            {
-                AddNewUser addNewUser = new AddNewUser();
-                List<string> info = new List<string>  { textBox1.Text, textBox2.Text, textBox3.Text,
-                        textBox6.Text, textBox5.Text, textBox4.Text, textBox7.Text, textBox8.Text };
-                addNewUser.AddNewClient(info);
-                this.Close();
-            }
-            catch
-            {
-                MessageBox.Show("Неккоректно введенные данные");
-            }
+           
+             AddNewUser addNewUser = new AddNewUser(this, form1);
+             List<string> info = new List<string>  { textBox1.Text, textBox2.Text, textBox3.Text,
+                   textBox4.Text, textBox5.Text, textBox6.Text,  textBox7.Text, textBox8.Text };
+             addNewUser.AddNewClientFromReg(info);             
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)

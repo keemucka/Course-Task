@@ -34,21 +34,14 @@ namespace Beauty_saloon
             label6.Text = info[2];
             comboBox2.Items.Clear();
             dateTimePicker1.Value = DateTime.Now.AddDays(1);
-        }       
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            try
-            {
-                AddNewUser addNewUser = new AddNewUser();
-                addNewUser.AddNewScheduleClient(Client, comboBox1, dateTimePicker1, comboBox2);
-                this.Close();
-            }
-            catch
-            {
-                MessageBox.Show("Некорректно введенные данные");
-            }
-        }
+            AddNewUser addNewUser = new AddNewUser();
+            addNewUser.AddNewScheduleClient(Client, comboBox1, dateTimePicker1, comboBox2);
+            this.Close();
+        } 
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {

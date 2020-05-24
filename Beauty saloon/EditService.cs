@@ -12,8 +12,7 @@ namespace Beauty_saloon
 {
     public partial class EditService : Form
     {
-        service service;
-        public Model1 db = new Model1();
+        service service;       
         public EditService(service service)
         {
             InitializeComponent();
@@ -41,11 +40,11 @@ namespace Beauty_saloon
         {
             if (button1.Text == "Изменить")
             {
-                if ((textBox1.Text != "") && (textBox2.Text != "") && (comboBox1.SelectedItem.ToString() != ""))
+                if ((textBox1.Text != "") && (textBox2.Text != "") && (comboBox1.SelectedItem != null))
                 {
-                    EditInfo editInfo = new EditInfo(service, comboBox1.SelectedItem.ToString());
+                    EditInfo editInfo = new EditInfo(service, comboBox1.SelectedItem.ToString(),  this);
                     editInfo.EditService(new List<string> { textBox1.Text, textBox2.Text, comboBox1.SelectedItem.ToString() });
-                    this.Close();
+                   
                 }
                 else MessageBox.Show("Введите данные и укажите врача");
 
@@ -54,9 +53,9 @@ namespace Beauty_saloon
             {
                 if ((textBox1.Text != "") && (textBox2.Text != "") && (comboBox1.SelectedItem.ToString() != ""))
                 {
-                    AddNewUser addNewUser = new AddNewUser(comboBox1.SelectedItem.ToString());
+                    AddNewUser addNewUser = new AddNewUser(comboBox1.SelectedItem.ToString(), this);
                     addNewUser.AddNewService(new List<string> { textBox1.Text, textBox2.Text, comboBox1.SelectedItem.ToString() });
-                    this.Close();
+                   
                 }
                 else MessageBox.Show("Введите данные и укажите врача");
             }
